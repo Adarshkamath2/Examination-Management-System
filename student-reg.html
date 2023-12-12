@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <form action="student-reg.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Student ID </span>
+            <input
+              type="text"
+              name="sid"
+              id="sid"
+              placeholder="Enter Your SID(Ex. SN001)"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Name </span>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Date of Birth </span>
+            <input
+              type="text"
+              name="dob"
+              id="dob"
+              placeholder="Enter Your Date-of-Birth(YYYY-MM-DD)"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Contact Number </span>
+            <input
+              type="text"
+              name="contact"
+              id="contact"
+              placeholder="Enter Your Contact Number"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Gender </span>
+            <input
+              type="text"
+              name="gender"
+              id="gender"
+              placeholder="Enter Your Gender(Ex. Male)"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Father's name </span>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="Enter Your Father's Name"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Mother's name </span>
+            <input
+              type="text"
+              name="mname"
+              id="mname"
+              placeholder="Enter Your Mother's Name"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Application Number </span>
+            <input
+              type="text"
+              name="app"
+              id="app"
+              placeholder="Enter Your Application Number(Ex. 1001)"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Center ID </span>
+            <input
+              type="text"
+              name="center"
+              id="center"
+              placeholder="Enter Your Center ID(Ex. EX03)"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Repeater </span>
+            <input
+              type="text"
+              name="repeater"
+              id="repeater"
+              placeholder="are you repeater(0/1)"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> College Name </span>
+            <input
+              type="text"
+              name="college"
+              id="college"
+              placeholder="Enter Your College Name"
+              required
+            />
+          </div>
+        </div>
+        <!-- <div class="gender-details">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for=""> <span class="dot one"></span> </label>
+          </div>
+        </div> -->
+        <div class="button">
+          <input type="submit" value="Register" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

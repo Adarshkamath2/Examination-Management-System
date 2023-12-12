@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Faculty Registration</div>
+      <form action="faculty-reg.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Faculty ID </span>
+            <input
+              type="text"
+              name="fid"
+              id="fid"
+              placeholder="Enter Your FID(Ex. 1)"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Name </span>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Date of Birth </span>
+            <input
+              type="text"
+              name="dob"
+              id="dob"
+              placeholder="Enter Your Date-of-Birth(YYYY-MM-DD)"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Contact Number </span>
+            <input
+              type="text"
+              name="contact"
+              id="contact"
+              placeholder="Enter Your Contact Number"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Gender </span>
+            <input
+              type="text"
+              name="gender"
+              id="gender"
+              placeholder="Enter Your Gender(Ex. Male)"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Age </span>
+            <input
+              type="text"
+              name="age"
+              id="age"
+              placeholder="Enter Your age"
+              required
+            />
+          </div>
+        </div>
+        <!-- <div class="gender-details">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for=""> <span class="dot one"></span> </label>
+          </div>
+        </div> -->
+        <div class="button">
+          <input type="submit" value="Register" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

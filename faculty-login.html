@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faculty Login</title>
+    <link rel="stylesheet" href="logstyle.css" />
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form action="faculty-profile.php" method="post">
+        <div class="txt_field">
+          <input type="text" name="fid" id="id" required />
+          <span></span>
+          <label>Faculty ID</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" name="dob" id="dob" required />
+          <span></span>
+          <label>Date Of Birth</label>
+        </div>
+        <div class="pass">Forgot password?</div>
+        <input type="submit" value="Login" />
+        <div class="signup_link">
+          Not a Faculty? <a href="faculty-reg.html">Sign up</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

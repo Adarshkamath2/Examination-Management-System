@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  /* background-color: rgb(215, 175, 253); */
+  padding: 34px;
+  margin: auto;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+.submitmsg {
+  color: orange;
+  font-size: 25px;
+}
+
+input,
+textarea {
+  width: 80%;
+  margin: 11px 0px;
+  padding: 7px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 6px;
+  outline: none;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  color: white;
+  background-color: purple;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 14px;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.bg {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+table {
+  position: absolute;
+  /* left: 20%;
+  top: 20%; */
+  /* transform: translate(-50%, -50%); */
+  border-collapse: collapse;
+  /* width: 800px;
+  height: 200px; */
+  border: 1px solid#bdc3c7;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#header {
+  background-color: #16a085;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 600;
+  text-align: center;
+  background-color: #16a085;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.02);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tab {
+  margin: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  align-items: center;
+}
+
+/* .tab table {
+  background-color: #efb8fa;
+} */
+
+.tab table th {
+  font-size: 15px;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
+.head {
+  background-color: aliceblue;
+}
+/* .tab table,
+th,
+td {
+  border: 1px solid black;
+} */
+
+.tab table tr {
+  margin: 40px;
+  padding: 50px;
+  font-size: 30px;
+  text-align: left;
+}
+.tab table tr td {
+  margin: 10px;
+  padding: 10px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+/* media Query */
+
+/* @media only screen and (mix-width: 768px) {
+  table {
+    width: 90%;
+  }
+} */
